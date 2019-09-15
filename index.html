@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarWars</title>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header>
+            <h1>Star Wars RPG!</h1>
+        </header>
+
+        <!-- This row holds the characters initially when the game starts -->
+        <div class="row charactersArea">                
+            <div class="col-1 characterDiv">
+                <p class="characterName">Obi-WanKenobt</p>
+                <img class="img-fluid characterImage" src="assets/images/wan.jpg">
+                <p class="characterHP">120</p>
+            </div>
+            <div class="col-1 characterDiv">
+                <p class="characterName">Luke SkyWalker</p>
+                <img class="img-fluid characterImage" src="assets/images/luke.jpg">
+                <p class="characterHP">100</p>
+            </div>
+            <div class="col-1 characterDiv">
+                <p class="characterName">Darth Sidious</p>
+                <img class="img-fluid characterImage" src="assets/images/sidious.png">
+                <p class="characterHP">150</p>
+            </div>
+            <div class="col-1 characterDiv">
+                <p class="characterName">Darth Maul</p>
+                <img class="img-fluid characterImage" src="assets/images/maul.jpg">
+                <p class="characterHP">180</p>
+            </div>
+        </div>
+
+        <h3>Your Character</h3>
+
+        <!-- This row holds the enemies of the character choosen -->
+        <div class="row enemiesArea">          
+        </div>
+
+        <h5>Enemies Available To Attack</h5>
+        <h5>Fight Sequence</h5>
+        <button>Attack</button>
+        <h5>Defender</h5>
+
+        <!-- This row holds the defender or enemy character choosen -->
+        <div class="row defendersArea">           
+        </div>
+
+    </div>
+
+    <script src="assets/scripts/logic.js"></script>
+</body>
+
+</html>

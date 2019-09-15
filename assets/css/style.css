@@ -1,0 +1,43 @@
+body{
+    font-family: 'Share Tech Mono', monospace;
+    background-image:url('../images/starwars_background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;   
+}
+
+header{
+    text-align: center;
+}
+
+.characterDiv{ 
+    text-align:center;
+    font-size:0.75rem;
+    margin-right: 0.1em;
+}
+
+.characterImage{
+    height:80px;
+}
+
+.charactersArea .characterDiv{
+    background-color: white;
+    border:1.5px solid green;
+}
+
+.enemiesArea .characterDiv{
+    background-color: red;
+    border:1.5px solid black;
+}
+
+.defendersArea .characterDiv{
+    background-color: black;
+    border:1.5px solid green;
+}
+
+.characterName,.characterHP{
+    margin-bottom: 0;
+}
+
+
+
+
