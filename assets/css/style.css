@@ -1,6 +1,6 @@
 body{
     font-family: 'Share Tech Mono', monospace;
-    background-image:url('../images/starwars_background.jpg');
+    background-image:url('../images/starwars_background.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat;   
 }
@@ -9,34 +9,51 @@ header{
     text-align: center;
 }
 
-.characterDiv{ 
-    text-align:center;
-    font-size:0.75rem;
-    margin-right: 0.1em;
+
+.characterName,.characterHP{
+    margin-bottom: 0;
 }
 
 .characterImage{
     height:80px;
 }
 
-.charactersArea .characterDiv{
+#charactersSection,#enemiesSection,#defendersSection{
+    height:120px;
+}
+
+.character{
     background-color: white;
     border:1.5px solid green;
+    text-align:center;
+    font-size:0.75rem;
 }
 
-.enemiesArea .characterDiv{
+.enemy{
     background-color: red;
     border:1.5px solid black;
+    text-align:center;
+    font-size:0.75rem;
+    margin-right: 0.1em;
 }
 
-.defendersArea .characterDiv{
+.defender{
     background-color: black;
     border:1.5px solid green;
+    color:white;
+    text-align:center;
+    font-size:0.75rem;
+    margin-right: 0.1em;
 }
 
-.characterName,.characterHP{
-    margin-bottom: 0;
+#main{
+    padding-left:2em;
 }
+
+h2,h3,h4,h5,h6{
+    padding-left:0;
+}
+
 
 
 
